@@ -1,0 +1,21 @@
+{
+  "bms_list": [
+    {
+      "name": "BMS-1",
+      "ip": "192.168.1.101"
+    },
+    {
+      "name": "BMS-2",
+      "ip": "192.168.1.102"
+    }
+  ],
+  "port": 502,
+  "unit_id": 1,
+  "cmd_interval_sec": 1.0,
+  "heartbeat_interval_sec": 1.0,
+  "cmd_register_address_hex": "0x038B",
+  "cmd_write_value": 2,
+  "heartbeat_register_address_hex": "0x0380",
+  "heartbeat_start_value": 0,
+  "prevent_sleep": true
+}
